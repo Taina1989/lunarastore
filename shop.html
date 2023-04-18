@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+</head>
+<body>
+    <!--Contenedor de los elementos-->
+    <section class="shop">
+        <div class="shop-items">
+            <div class="item">
+                <span class="item-title">Box Engasse</span>
+                <img src="img/products/_MG_5942.jpg" alt="" class="img-item">
+                <span class="item-price">S/.45.00</span>
+                <button class="item-boton">Agregar al Carrito</button>
+            </div>
+        </div>
+    </section>
+    <!--Carrito de compras-->
+    <div class="car">
+        <div class="header-car">
+            <h2>Tu Carrito</h2>
+        </div>
+        <div class="items-car">
+            <div class="item-car">
+                <img src="img/products/_MG_5948.jpg" alt="" width="80px">
+                <div class="car-item-details">
+                    <span class="car-item-title">Nombre Random</span>
+                    <div class="selector-cantidad">
+                        <i class="fa-solid fa-minus restar-cantidad"></i>
+                        <input type="text" value="1" class="car-item-cantidad" disabled>
+                        <i class="fa-solid fa-plus sumar-cantidad"></i>
+                    </div>
+                    <span class="car-item-precio">S/40.00</span>
+                </div>
+                <span class="btn-eliminar">
+                    <i class="fa-solid fa-trash"></i>
+                </span>
+            </div>
+            <div class="item-car">
+                <img src="img/products/_MG_5948.jpg" alt="" width="80px">
+                <div class="car-item-details">
+                    <span class="car-item-title">Nombre Random2</span>
+                    <div class="selector-cantidad">
+                        <i class="fa-solid fa-minus restar-cantidad"></i>
+                        <input type="text" value="2" class="car-item-cantidad" disabled>
+                        <i class="fa-solid fa-plus sumar-cantidad"></i>
+                    </div>
+                    <span class="car-item-precio">S/50.00</span>
+                </div>
+                <span class="btn-eliminar">
+                    <i class="fa-solid fa-trash"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="car-total">
+            <div class="fila">
+                <strong>Total</strong>
+                <span class="car-price-total">
+                    S/90.00
+                </span>
+            </div>
+            <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+    </div>
+</body>
+</html>
